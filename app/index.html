@@ -1,0 +1,182 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="/css/styles.css">
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+        <script src="/js/script.js"></script>
+        <title>Анкета "Фирстов Василий"</title>
+        <style ></style>
+    </head>
+    <body>
+        <div class="profile-page">
+            <div class="profile-page-bg"></div>
+            <div class="profile-page_header">
+                <div class="profile-page_container">
+                    <div class="profile-page_header_menu">
+                        <a class="header_link--info" href="#info">Личная информация</a>
+                        <a class="header_link--exp" href="#exp">Опыт</a>
+                        <a class="header_link--js" href="#js">JavaScript</a>
+                        <a class="header_link--about" href="#about">О себе</a>
+                    </div>
+                    <div class="profile-page_header_mobile">
+                        <a>
+                            <img src="/img/burger.svg">
+                        </a>
+                    </div>
+                    <div class="profile-page_header_mobile_menu">
+                        <a href="#info">Личная информация</a>
+                        <a href="#exp">Опыт</a>
+                        <a href="#js">JavaScript</a>
+                        <a href="#about">О себе</a>
+                    </div>
+                </div>
+            </div>
+            <div class="profile-page_container main-container">
+                <div class="profile-page_title">
+                    <h1>Анкета</h1>
+                </div>
+                <div id="info" class="section">
+                    <div class="section_header">
+                        <img src="/img/personal.svg">
+                        <h2>Личная информация</h2>
+                    </div>
+                    <div class="section_body">
+                        <div class="my-info">
+                            <div class="my-info_input ">
+                                <input class="my-info_input--name"/>
+                                <span>ФИО</span>
+                            </div>
+                            <div class="dropdown">
+                                <div class="dropdown_title">
+                                    <a><span>1990</span></a>
+                                </div>
+                                <div class="dropdown_list">
+                                    <ul>
+                                        <li><a>1998</a></li>
+                                        <li><a>1997</a></li>
+                                        <li><a>1996</a></li>
+                                        <li><a>1995</a></li>
+                                        <li><a>1994</a></li>
+                                        <li><a>1993</a></li>
+                                        <li><a>1992</a></li>
+                                        <li><a>1991</a></li>
+                                        <li><a>1990</a></li>
+                                        <li><a>1989</a></li>
+                                        <li><a>1988</a></li>
+                                        <li><a>1987</a></li>
+                                        <li><a>1986</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="my-info_input">
+                                <input class="my-info_input--city" required/>
+                                <span>Место проживания</span>
+                            </div>
+                            <div class="my-info_input">
+                                <input class="my-info_input--skype"/>
+                                <span>Skype</span>
+                            </div>
+                            <div class="my-info_input">
+                                <input class="my-info_input--email"/>
+                                <span>E-mail</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="exp" class="section">
+                    <div class="section_header">
+                        <img src="/img/list.svg">
+                        <h2>Расскажите о своем опыте</h2>
+                        
+                    </div>
+                    <div class="section_body chekbox-list">
+                        <label class="profile-page_checkbox">
+                            <input type="checkbox" checked><span>БЭМ/OOCSS
+                            </span>
+                        </label>
+                        <label class="profile-page_checkbox">
+                            <input type="checkbox" checked><span>Верстаю семантично 
+                            </span>
+                        </label>
+                        <label class="profile-page_checkbox">
+                            <input type="checkbox"><span>Webpack
+                            </span>
+                        </label>
+                        <label class="profile-page_checkbox">
+                            <input type="checkbox" checked><span>Stylus/LESS/SASS 
+                            </span>
+                        </label>
+                        <label class="profile-page_checkbox">
+                            <input type="checkbox" checked><span>ES2015/ES2016 
+                            </span>
+                        </label>
+                        <label class="profile-page_checkbox">
+                            <input type="checkbox" checked><span>jQuery 
+                            </span>
+                        </label>
+                        <label class="profile-page_checkbox">
+                            <input type="checkbox"><span>Работаю с SVG 
+                            </span>
+                        </label>
+                        <label class="profile-page_checkbox">
+                            <input type="checkbox" checked><span>Gulp/GRUNT
+                            </span>
+                        </label>
+                        <label class="profile-page_checkbox">
+                            <input type="checkbox" checked><span>Ипользую Git
+                            </span>
+                        </label>
+                    </div>
+                </div>
+                <div id="js" class="section">
+                    <div class="section_header">
+                        <img src="/img/js.svg">
+                        <h2>Уровень владения JavaScript</h2>
+                    </div>
+                    <div class="section_body"> 
+                        <div class="slide-block">
+                            <div class="slide-block_marks">
+                                <div class="slide-block_marks_item mark-0">
+                                    Не владею
+                                </div>
+                                <div class="slide-block_marks_item mark-25">
+                                    Использую готовые
+                                    решения
+                                </div>
+                                <div class="slide-block_marks_item mark-50">
+                                    Использую готовые решения
+                                    и умею и переделывать
+                                </div>
+                                <div class="slide-block_marks_item mark-100">
+                                    Пишу сложный JS с нуля
+                                </div>
+                            </div>
+                            <div class="slidecontainer">
+                                <input type="range" min="1" max="100" value="50" class="slider" id="myRange">
+                                <span class="slidecontainer-val"></span>
+                                <span class="separator-25"></span>
+                                <span class="separator-50"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="about" class="section">
+                    <div class="section_header">
+                        <img src="/img/about.svg">
+                        <h2>Расскажите о себе</h2>
+                        <p class="section_header_text">Напишите несколько предложений, чем привлекла наша вакансия и что вы ожидаете от работы у нас.</p>
+                    </div>
+                    <div class="section_body section_body_about">
+                        <div class="section_body_textarea">
+                            <textarea class="section_body_textarea" rows="8"></textarea>
+                            <span>Понравилась тем, что...</span>
+                        </div>
+                        <button class="btn">Готово</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
